@@ -1,7 +1,8 @@
 package aws
+package bass
 package foreign-env
 package fzf
-package nvm
+package https://github.com/fabioantunes/fish-nvm
 theme agnoster
 theme default
 theme spacefish
