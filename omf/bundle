@@ -4,5 +4,4 @@ package fzf
 package nvm
 theme agnoster
 theme default
-theme simple-ass-prompt
 theme spacefish
