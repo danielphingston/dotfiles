@@ -1,0 +1,8 @@
+background_opacity: .9
+window:
+  padding:
+    x: 7
+    y: 10
+
+key_bindings:
+- { key: Return,  mods: Shift|Control, action: SpawnNewInstance} 

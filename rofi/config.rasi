@@ -1,0 +1,9 @@
+
+configuration {
+	modi: "window,run,ssh";
+	show-icons: true;
+	fake-transparency: true;
+	sidebar-mode: true;
+}
+
+@import "~/.cache/wal/colors-rofi-dark"

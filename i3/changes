@@ -1,0 +1,17 @@
+deviceId = deviceId^patientId^deviceName
+/device/:deviceId"  [DELET,PUT,GET]
+/device/rpmdevice/foraapi/data/:deviceId [POST]
+/device/rpmdevice/foraapi/time/:deviceId [POST]
+/device/scheduler/:deviceId [PUT,GET,DELETE]
+
+v1/device/rpmdevice -> extra in body{deviceName,patientId} [POST,PUT]
+
+device/remote {deviceName} [POST]
+
+v1/device/rpmdevice [POST,PUT] 
+send deviceName and patientId as well in the body
+
+
+device/remote  [POST]
+
+send {deviceName} in the body
