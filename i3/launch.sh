@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
-export SXHKD_SHELL=/bin/sh
-pgrep -x sxhkd > /dev/null || sxhkd &
+# export SXHKD_SHELL=/bin/sh
+# pgrep -x sxhkd > /dev/null || sxhkd &
 xsetroot -cursor_name left_ptr &
 nitrogen --restore &
 pgrep -x compton > /dev/null || compton --config /home/danielphingston/.config/i3/compton.conf &
-xrandr --output eDP-1 --brightness 0.85 &
+xrandr --output eDP-1 --brightness 0.8 &
 wal -R &
 pgrep -x clipnotify > /dev/null || clipmenud &
 
